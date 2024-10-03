@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Piedra Papel o Tijera</h1>
+
+      <div class="options">
+        <button id="rock"><i class="fa-regular fa-hand-back-fist"></i></button>
+        <button id="paper"><i class="fa-regular fa-hand"></i></button>
+        <button id="scissors">
+          <i class="fa-regular fa-hand-scissors"></i>
+        </button>
+      </div>
+
+      <div class="result">
+        <p id="messaje">Haz tu eleccion!</p>
+        <p><strong>Tu:</strong> <span id="user-choice">-</span></p>
+        <p><strong>Computadora:</strong> <span id="computer-choice">-</span></p>
+        <p><strong>Resultado:</strong> <span id="game-result">-</span></p>
+      </div>
+
+      <button id="reset">Reinciar</button>
+    </div>
+    <footer>
+      <p>
+        Creado por:
+        <a href="https://github.com/minombre45" target="_blank">Tilin</a>
+      </p>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
